@@ -1,0 +1,14 @@
+{
+  "name": "Node-y-Express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Node y Express.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dilabel González",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
