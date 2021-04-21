@@ -1,0 +1,89 @@
+/* Selector de id */
+#Logo
+{
+    width: 214px;
+    display:block;
+    margin-top: -2.5%;
+    margin-left: 3.5%;
+}
+
+/* Selector de atributo */
+[name="Beidou"]
+{
+    width: 500px;
+    shape-outside: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/5e5896a5-4a79-496a-bea4-81f26cfa2650/de9119s-73a7c7ee-59cd-431d-8524-94ca0fa2e42f.png/v1/fill/w_1280,h_2703,strp/beidou_genshin_impact_character_png_by_deg5270_de9119s-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3siaGVpZ2h0IjoiPD0yNzAzIiwicGF0aCI6IlwvZlwvNWU1ODk2YTUtNGE3OS00OTZhLWJlYTQtODFmMjZjZmEyNjUwXC9kZTkxMTlzLTczYTdjN2VlLTU5Y2QtNDMxZC04NTI0LTk0Y2EwZmEyZTQyZi5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.-hIJ2sv50gqnmGiXvHMcenKzr-jAore_d-0GlVbwbVE);
+    shape-image-threshold: 0.5;
+    shape-margin: 20px;
+    float: left;
+}
+
+/* Selector universal */
+*
+{
+    font-family: akbaal;
+    font-weight: bold;
+    font-size: 98%;
+    color: #937b77;
+}
+
+/* Selector de hijo */
+p > span
+{
+    color:lightseagreen;
+    font-size: 20px;
+}
+
+/* Selector de etiqueta de id y pseudoclases */
+p#primeraletra::first-letter
+{
+    font-size: 20px;
+}
+
+/* Selector de etiqueta de id y pseudoclases */
+#primeralinea::first-line
+{
+    text-decoration: underline;
+}
+
+/* Selector de etiqueta de id y combinación de selectores */
+#p1, #p2
+{
+    color: lightseagreen;
+}
+
+/* Combinacion de selectores y selector descendente */
+#Descendente span
+{
+    color: lightseagreen;
+    font-size: 100% !important;
+}
+
+/*Selector de etiqueta de clases*/
+span.A
+{
+    color: lightseagreen !important; 
+    font-size: 100%;
+}
+
+#color
+{
+    color: lightseagreen !important; 
+    font-size: 100%;
+}
+
+#color2
+{
+    color: lightseagreen !important; 
+    font-size: 100%;
+}
+
+#color3
+{
+    color: lightseagreen !important; 
+    font-size: 100%;
+}
+
+[href="./Inicio.html"]
+{
+    margin-left: 82%;
+}
